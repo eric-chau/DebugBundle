@@ -1,0 +1,30 @@
+{
+    "name": "backbee/debug-bundle",
+    "description": "BackBee bundle to add extra features for debugging",
+    "type": "backbee-bundle",
+    "license": "GPL-3.0+",
+    "keywords": ["backbee", "article", "blog"],
+    "homepage": "https://github.com/backbee/demo-bundle",
+    "authors": [
+        {
+            "name": "Mickaël Andrieu",
+            "email": "andrieu.travail@gmail.com"
+        },
+        {
+            "name": "BackBee community",
+            "homepage": "https://github.com/backbee/BackBee/graphs/contributors"
+        }
+    ],
+    "require": {
+        "backbee/backbee": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-4": { "BackBee\\Bundle\\DebugBundle\\": "" }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

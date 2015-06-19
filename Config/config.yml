@@ -1,0 +1,7 @@
+bundle:
+    name: DebugBundle
+    description: DebugBundle provide some extended features for debugging
+    author: Mickaël Andrieu <mickael.andrieu@lp-digital.fr>
+    version: 1
+    enable: true
+    config_per_site: false
