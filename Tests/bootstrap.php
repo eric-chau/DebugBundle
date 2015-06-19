@@ -2,7 +2,7 @@
 
 use Doctrine\Common\Annotations\AnnotationRegistry;
 
-if (!($loader = @include __DIR__ . '/../vendor/autoload.php')) {
+if (!($loader = @include __DIR__.'/../vendor/autoload.php')) {
     die(<<<EOT
 You need to install the project dependencies using Composer:
 $ wget http://getcomposer.org/composer.phar
@@ -15,4 +15,3 @@ EOT
 }
 
 AnnotationRegistry::registerLoader('class_exists');
-

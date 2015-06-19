@@ -91,9 +91,11 @@ EOF
     }
 
     /**
-     * Returns a more readable controller/action description for a Route
-     * @param  Route  $route The selected Route
-     * @return string        The couple Controller::Action if available
+     * Returns a more readable controller/action description for a Route.
+     *
+     * @param Route $route The selected Route
+     *
+     * @return string The couple Controller::Action if available
      */
     private function convertController(Route $route)
     {
@@ -105,11 +107,13 @@ EOF
     }
 
     /**
-     * Returns a descriptive string for a RouteCollection
-     * @param  Table           $table           The Symfony Console Table Helper
-     * @param  RouteCollection $routes          A collection of routes
-     * @param  bool            $showControllers If true, display Controller informations
-     * @return string                           The text description of a RouteCollection
+     * Returns a descriptive string for a RouteCollection.
+     *
+     * @param Table           $table           The Symfony Console Table Helper
+     * @param RouteCollection $routes          A collection of routes
+     * @param bool            $showControllers If true, display Controller informations
+     *
+     * @return string The text description of a RouteCollection
      */
     private function describeRouteCollection(Table $table, RouteCollection $routes, $showControllers)
     {
@@ -137,11 +141,13 @@ EOF
     }
 
     /**
-     * Returns a descriptive string for a Route
-     * @param  Route  $route           A BackBee Route instance
-     * @param  string $routeName       The Route name (the associated index in a RouteCollection)
-     * @param  bool   $showControllers If true, display the Controller information
-     * @return string                  The text description of a Route
+     * Returns a descriptive string for a Route.
+     *
+     * @param Route  $route           A BackBee Route instance
+     * @param string $routeName       The Route name (the associated index in a RouteCollection)
+     * @param bool   $showControllers If true, display the Controller information
+     *
+     * @return string The text description of a Route
      */
     private function describeRoute(Route $route, $routeName, $showControllers)
     {
@@ -166,7 +172,7 @@ EOF
     }
 
     /**
-     * Returns a descriptive string from Route options/requirements
+     * Returns a descriptive string from Route options/requirements.
      *
      * @param array $routeOptions
      *
