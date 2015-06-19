@@ -1,5 +1,5 @@
 <?php
-namespace BackBee\Bundle\DemoBundle;
+namespace BackBee\Bundle\DebugBundle;
 
 /*
  * Copyright (c) 2011-2015 Lp digital system

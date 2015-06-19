@@ -4,7 +4,7 @@
     "type": "backbee-bundle",
     "license": "GPL-3.0+",
     "keywords": ["backbee", "article", "blog"],
-    "homepage": "https://github.com/backbee/demo-bundle",
+    "homepage": "https://github.com/backbee/debug-bundle",
     "authors": [
         {
             "name": "Mickaël Andrieu",
