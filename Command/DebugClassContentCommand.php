@@ -115,6 +115,8 @@ EOF
      */
     private function describeClassContent($classContent)
     {
+        $renderer = $this->getApplication()->getApplication()->getRenderer();
+
         if (!in_array($classContent, $this->classContents)) {
             throw new \InvalidArgumentException(sprintf('The ClassContent %s does\'nt exists', $classContent));
         }
@@ -144,6 +146,12 @@ EOF
 
         foreach ($instance->getProperty() as $propertyName => $propertyValue) {
             $description[] = "<comment>$propertyName</comment>        ".$this->formatParameter($propertyValue);
+        }
+
+        $description[] = '<comment>Render modes</comment>';
+
+        foreach ($renderer->getAvailableRenderMode($instance) as $renderMode) {
+            $description[] = "             $renderMode";
         }
 
         return implode("\n", $description)."\n";
