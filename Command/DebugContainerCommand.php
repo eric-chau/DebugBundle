@@ -391,10 +391,10 @@ EOF
 
     protected function formatParameter($value)
     {
-
         if (is_bool($value) || is_array($value) || (null === $value)) {
             return json_encode($value);
         }
+
         return $value;
     }
 }

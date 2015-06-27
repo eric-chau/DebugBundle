@@ -32,7 +32,6 @@ class Debug extends AbstractBundle
      */
     public function start()
     {
-
     }
 
     /**
@@ -40,6 +39,5 @@ class Debug extends AbstractBundle
      */
     public function stop()
     {
-
     }
 }

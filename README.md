@@ -10,7 +10,7 @@ This Bundle provide some useful **features** to help you find the root of an iss
 Commands
 -----------------
 
-**container:debug**
+**debug:container**
 
 A powerful command to find services, parameters and tags inside the ContainerBuilder of BackBee CMS.
 This is mostly an adaptation of the Symfony Framework ``container:debug`` command.
@@ -22,7 +22,7 @@ This is mostly an adaptation of the Symfony Framework ``container:debug`` comman
 * List services
 ![services](https://cloud.githubusercontent.com/assets/1247388/8253970/d18ddba6-1694-11e5-8d62-00331c1d1906.png)
 
-**container:routing**
+**debug:routing**
 
 Make your own bundles allow you to create complete and totaly "CMS-uncoupled" applications.
 Sometimes, you need to check if the routes you have defined are setted correctly: this is exactly
@@ -35,6 +35,14 @@ the purpose of this command.
 * Overview of all routes with Controller (can break the view of some "low screen" resolutions)
 ![dump-routes-controllers](https://cloud.githubusercontent.com/assets/1247388/8253775/1fa5314c-1693-11e5-8bf9-050cb37c8cee.png)
 
+**debug:class-content**
+
+Ever wonder if your class contents are correctly set and availables in your applications ? This is the command to use.
+
+* Display a class content (and have complete informations)
+![classcontent-article](https://cloud.githubusercontent.com/assets/1247388/8264124/c79075de-16e2-11e5-9bb7-5bccb5008247.png)
+* Display list of all availables class contents
+![list-contents](https://cloud.githubusercontent.com/assets/1247388/8264125/cb85fee8-16e2-11e5-8665-fd8803aea571.png)
 
 ### Documentation links
 
